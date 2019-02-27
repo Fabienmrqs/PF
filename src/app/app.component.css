@@ -41,8 +41,38 @@ a {
 }
 
 mat-divider {
-
-color: white;
+  color: white;
   margin-top: 30px;
   opacity: 0.5;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.arrow-back {
+  margin: auto;
+  display: block;
+}
+
+.scroller {
+  position: absolute;
+  transform: translateX(-50%);
+  bottom: 0;
+  left: 50%;
+}
+
+.scroller-container{
+  color: white;
+}
+
+.nike-logo-container {
+  position: absolute;
+  bottom: 70px;
+  transform: translateX(-50%);
+  left: 50%;
+
+
+}
+
+.nike-logo-img {
+  width: 40px;
 }
