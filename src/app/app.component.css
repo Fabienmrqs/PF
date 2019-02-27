@@ -1,0 +1,48 @@
+html, body {
+  margin: 0 !important;
+  height: 100%;
+}
+
+.home-container {
+  background-image: url("~src/assets/phototest.jpeg");
+  display:block;
+  width:100%;
+  height:100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  color: white;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none ;
+  color: white;
+}
+
+.router-container{
+  width: 100%
+}
+
+.router-link{
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.main-icon {
+  width: 50px;
+}
+
+mat-divider {
+
+color: white;
+  margin-top: 30px;
+  opacity: 0.5;
+}
